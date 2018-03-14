@@ -37,6 +37,5 @@ module.exports = async () => {
 
   console.log('')
 
-  await new Promise(resolve => setTimeout(resolve, 100))
-  await exec(`npm run lint-fix`)
+  await exec(`npm run fix`)
 }
