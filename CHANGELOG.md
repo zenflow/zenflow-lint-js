@@ -1,3 +1,12 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.1.4...v0.2.0) (2018-03-14)
+
+
+### Features
+
+* **config:** BREAKING CHANGE: use each projects gitignore for the eslint ignore ([31d2d53](https://github.com/zenflow/zenflow-lint-js/commit/31d2d53))
+* **install:** add install script, closes [#2](https://github.com/zenflow/zenflow-lint-js/issues/2) ([a29f8de](https://github.com/zenflow/zenflow-lint-js/commit/a29f8de))
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/zenflow/zenflow-lint-js/compare/v0.1.3...v0.1.4) (2018-03-14)
 
