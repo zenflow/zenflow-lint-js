@@ -5,11 +5,15 @@
   "engines": {
     "node": ">=6"
   },
-  "main": "index.js",
   "bin": "bin/cmd.js",
+  "files": [
+    "bin",
+    ".eslintrc.json",
+    "CHANGELOG.md"
+  ],
   "scripts": {
-    "fix": "eslint . --fix",
-    "lint": "eslint .",
+    "fix": "node bin/cmd.js --fix",
+    "lint": "node bin/cmd.js",
     "test": "npm run lint"
   },
   "repository": {
@@ -44,6 +48,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
+    "find-up": "^2.1.0",
     "prettier": "^1.11.1",
     "standard-engine": "^8.0.1"
   },
