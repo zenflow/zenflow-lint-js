@@ -1,3 +1,12 @@
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/zenflow/zenflow-lint-js/compare/v0.2.1...v0.2.2) (2018-03-14)
+
+
+### Bug Fixes
+
+* **editorconfig:** use new .editorconfig in eslint-config-zenflow v2 ([9d8a3bd](https://github.com/zenflow/zenflow-lint-js/commit/9d8a3bd))
+* **package:** update eslint-config-zenflow to version 2.1.1 ([7d3c589](https://github.com/zenflow/zenflow-lint-js/commit/7d3c589)), closes [#5](https://github.com/zenflow/zenflow-lint-js/issues/5)
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/zenflow/zenflow-lint-js/compare/v0.2.0...v0.2.1) (2018-03-14)
 
