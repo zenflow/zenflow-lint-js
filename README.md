@@ -10,4 +10,5 @@
 A standard js linter
 
 - rules from [eslint-config-zenflow](https://github.com/zenflow/eslint-config-zenflow#readme)
-- cli interface from [standard](https://github.com/standard/standard) via [standard-engine](https://github.com/standard/standard-engine)
+- general cli interface of [standard](https://github.com/standard/standard) via [standard-engine](https://github.com/standard/standard-engine)
+- install with `npx zenflow-lint-js install`
