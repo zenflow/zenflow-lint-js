@@ -8,6 +8,7 @@
   "bin": "bin/cmd.js",
   "files": [
     "bin",
+    "scripts",
     "util",
     ".eslintrc.json",
     "CHANGELOG.md"
