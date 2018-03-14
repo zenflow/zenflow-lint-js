@@ -1,3 +1,11 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/zenflow/zenflow-lint-js/compare/v0.1.2...v0.1.3) (2018-03-14)
+
+
+### Bug Fixes
+
+* **readme:** fix syntax error in a badge ([c1b661c](https://github.com/zenflow/zenflow-lint-js/commit/c1b661c))
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/zenflow/zenflow-lint-js/compare/v0.1.1...v0.1.2) (2018-03-14)
 
