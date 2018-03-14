@@ -1,3 +1,11 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/zenflow/zenflow-lint-js/compare/v0.2.0...v0.2.1) (2018-03-14)
+
+
+### Bug Fixes
+
+* **readme:** document "ignores based off your gitignore" feature ([37bfca0](https://github.com/zenflow/zenflow-lint-js/commit/37bfca0))
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.1.4...v0.2.0) (2018-03-14)
 
