@@ -10,6 +10,11 @@
 A standard js linter
 
 - rules from [eslint-config-zenflow](https://github.com/zenflow/eslint-config-zenflow#readme)
-- general cli interface of [standard](https://github.com/standard/standard) via [standard-engine](https://github.com/standard/standard-engine)
+- cli interface of [standard](https://github.com/standard/standard) (via [standard-engine](https://github.com/standard/standard-engine))
 - ignores based off your `.gitignore`
-- install with `npx zenflow-lint-js install`
+- `npx zenflow-lint-js install` for usually fully-automatic integration
+  - installs itself as a dev dependency
+  - adds standard package scripts
+  - takes care of your `.editorconfig`
+  - fixes fixable lint errors
+  - reports lint errors that need attention
