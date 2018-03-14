@@ -16,8 +16,8 @@ module.exports = async () => {
   const origUserPkg = JSON.parse(userPkgText)
   const userPkg = JSON.parse(userPkgText)
   for (const [scriptName, code] of [
+    ['fix', 'zenflow-lint-js --fix'],
     ['lint', 'zenflow-lint-js'],
-    ['lint-fix', 'zenflow-lint-js --fix'],
     ['test', 'npm run lint'],
   ]) {
     const script = userPkg.scripts[scriptName]
