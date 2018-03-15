@@ -1,3 +1,11 @@
+<a name="0.3.3"></a>
+## [0.3.3](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.2...v0.3.3) (2018-03-15)
+
+
+### Bug Fixes
+
+* **package:** update execa to version 0.10.0 ([#7](https://github.com/zenflow/zenflow-lint-js/issues/7)) ([f2ecdb6](https://github.com/zenflow/zenflow-lint-js/commit/f2ecdb6))
+
 <a name="0.3.2"></a>
 ## [0.3.2](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.1...v0.3.2) (2018-03-15)
 
