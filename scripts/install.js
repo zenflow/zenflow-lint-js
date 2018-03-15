@@ -1,41 +1,13 @@
-const { promisify } = require('util')
-const fs = require('fs')
-const findUp = require('find-up')
-const deepEqual = require('deep-equal')
 const exec = require('../util/exec')
-
-const readFile = promisify(fs.readFile)
+const updatePackageScripts = require('./install/updatePackageScripts')
+const handleEditorConfig = require('./default/handleEditorConfig')
 
 module.exports = async () => {
   await exec(`npm install zenflow-lint-js --save-dev`)
-
   console.log('')
-
-  const userPkgFile = await findUp('package.json')
-  const userPkgText = await readFile(userPkgFile, 'utf8')
-  const origUserPkg = JSON.parse(userPkgText)
-  const userPkg = JSON.parse(userPkgText)
-  for (const [scriptName, code] of [
-    ['fix', 'zenflow-lint-js --fix'],
-    ['lint', 'zenflow-lint-js'],
-    ['test', 'npm run lint'],
-  ]) {
-    const script = userPkg.scripts[scriptName]
-    if (!script) {
-      userPkg.scripts[scriptName] = code
-    } else if (!script.match(new RegExp(`(^|\\s)${code}(\\s|$)`))) {
-      userPkg.scripts[scriptName] = `${code} && ${script}`
-    }
-    if (userPkg.scripts[scriptName] !== script) {
-      console.log(`updating "${scriptName}" package script...`)
-    }
-  }
-  if (!deepEqual(userPkg, origUserPkg)) {
-    fs.writeFileSync(userPkgFile, JSON.stringify(userPkg, null, 2))
-    console.log('updated.')
-  }
-
+  await updatePackageScripts()
   console.log('')
-
+  await handleEditorConfig()
+  console.log('')
   await exec(`npm run fix`)
 }

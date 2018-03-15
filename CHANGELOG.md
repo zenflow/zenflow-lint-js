@@ -1,3 +1,34 @@
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.1...v0.3.2) (2018-03-15)
+
+
+### Bug Fixes
+
+* **readme:** fix typo ([5736384](https://github.com/zenflow/zenflow-lint-js/commit/5736384))
+
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.0...v0.3.1) (2018-03-15)
+
+
+### Bug Fixes
+
+* **readme:** fix typo in readme ([f0b09b3](https://github.com/zenflow/zenflow-lint-js/commit/f0b09b3))
+
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.2.3...v0.3.0) (2018-03-15)
+
+
+### Bug Fixes
+
+* cli must be called in root directory of project ([762a8ad](https://github.com/zenflow/zenflow-lint-js/commit/762a8ad))
+* **install:** give package.json the final newline it needs ([c4e72aa](https://github.com/zenflow/zenflow-lint-js/commit/c4e72aa))
+
+
+### Features
+
+* **install:** in package script setup, try to keep unit tests isolated from regular "test" script ([134ea94](https://github.com/zenflow/zenflow-lint-js/commit/134ea94))
+* **install:** take care of .editorconfig in install command ([7e11b5c](https://github.com/zenflow/zenflow-lint-js/commit/7e11b5c))
+
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/zenflow/zenflow-lint-js/compare/v0.2.2...v0.2.3) (2018-03-14)
 
