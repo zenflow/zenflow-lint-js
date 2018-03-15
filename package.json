@@ -1,6 +1,6 @@
 {
   "name": "zenflow-lint-js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A zero-config opinionated and awesome js linter",
   "engines": {
     "node": ">=6"
