@@ -10,11 +10,15 @@
 A zero-config opinionated and awesome js linter
 
 - rules from [eslint-config-zenflow](https://github.com/zenflow/eslint-config-zenflow#readme)
-- cli interface of [standard](https://github.com/standard/standard) (via [standard-engine](https://github.com/standard/standard-engine))
+  - based on [standard](https://github.com/standard/standard) style
+  - [prettier](https://github.com/prettier/prettier)
+  - [more](https://github.com/zenflow/eslint-config-zenflow#rules)
+- cli interface of standard via [standard-engine](https://github.com/standard/standard-engine))
 - ignores based off your `.gitignore`
-- `npx zenflow-lint-js install` for usually fully-automatic integration
+- `npx zenflow-lint-js install` for (usually fully-automatic) integration
   - installs itself as a dev dependency
-  - adds standard package scripts
+  - adds standard `lint` and `fix` package scripts
+  - integrates with `test` package script
   - takes care of your `.editorconfig`
   - fixes fixable lint errors
   - reports lint errors that need attention
