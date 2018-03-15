@@ -1,3 +1,11 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.3...v0.4.0) (2018-03-15)
+
+
+### Features
+
+* **install:** print message if install was successful ([2e1c90a](https://github.com/zenflow/zenflow-lint-js/commit/2e1c90a))
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.2...v0.3.3) (2018-03-15)
 
