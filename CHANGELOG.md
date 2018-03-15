@@ -1,3 +1,8 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.4.0...v1.0.0) (2018-03-15)
+
+## First Major Release
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.3...v0.4.0) (2018-03-15)
 
