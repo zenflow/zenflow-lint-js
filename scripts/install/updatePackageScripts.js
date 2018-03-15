@@ -38,7 +38,7 @@ module.exports = async () => {
     }
   }
   if (!deepEqual(userPkg, origUserPkg)) {
-    fs.writeFileSync(userPkgFile, JSON.stringify(userPkg, null, 2))
+    fs.writeFileSync(userPkgFile, JSON.stringify(userPkg, null, 2) + '\n')
     console.log('updated package scripts.')
   }
 }
