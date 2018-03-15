@@ -1,4 +1,3 @@
-const findUp = require('find-up')
 const standardEngine = require('standard-engine')
 const eslint = require('eslint')
 const path = require('path')
@@ -9,7 +8,7 @@ module.exports = async () => {
     eslint,
     eslintConfig: {
       configFile: path.join(__dirname, '..', '.eslintrc.json'),
-      ignorePath: findUp.sync('.gitignore'), // TODO: recursive dot-file concatentator package?
+      ignorePath: path.resolve('.gitignore'), // TODO: recursive dot-file concatentator package?
     },
     cmd: pkg.name,
     version: pkg.version,

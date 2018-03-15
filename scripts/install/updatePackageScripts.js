@@ -1,12 +1,12 @@
 const { promisify } = require('util')
 const fs = require('fs')
-const findUp = require('find-up')
+const path = require('path')
 const deepEqual = require('deep-equal')
 
 const readFile = promisify(fs.readFile)
 
 module.exports = async () => {
-  const userPkgFile = await findUp('package.json')
+  const userPkgFile = path.resolve('package.json')
   const userPkgText = await readFile(userPkgFile, 'utf8')
   const origUserPkg = JSON.parse(userPkgText)
   const userPkg = JSON.parse(userPkgText)
