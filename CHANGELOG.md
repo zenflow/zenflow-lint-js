@@ -1,3 +1,11 @@
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.1...v0.3.2) (2018-03-15)
+
+
+### Bug Fixes
+
+* **readme:** fix typo ([5736384](https://github.com/zenflow/zenflow-lint-js/commit/5736384))
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/zenflow/zenflow-lint-js/compare/v0.3.0...v0.3.1) (2018-03-15)
 
