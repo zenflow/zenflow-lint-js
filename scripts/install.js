@@ -10,4 +10,6 @@ module.exports = async () => {
   await handleEditorConfig()
   console.log('')
   await exec(`npm run fix`)
+  console.log('')
+  console.log('successfully installed zenflow-lint-js')
 }
