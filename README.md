@@ -15,7 +15,7 @@ A zero-config opinionated and awesome js linter
   - based on [standard](https://github.com/standard/standard) style
   - [prettier](https://github.com/prettier/prettier)
   - [more](https://github.com/zenflow/eslint-config-zenflow#rules)
-- cli interface of standard via [standard-engine](https://github.com/standard/standard-engine))
+- cli interface of standard via [standard-engine](https://github.com/standard/standard-engine)
 - ignores based off your `.gitignore`
 - `npx zenflow-lint-js install` for (usually fully-automatic) integration
   - installs itself as a dev dependency
