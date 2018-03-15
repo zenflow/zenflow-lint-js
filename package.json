@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "event-stream": "^3.3.4",
-    "execa": "^0.9.0",
+    "execa": "^0.10.0",
     "find-up": "^2.1.0",
     "prettier": "^1.11.1",
     "standard-engine": "^8.0.1"
