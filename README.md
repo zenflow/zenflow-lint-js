@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/zenflow-lint-js.svg)](https://www.npmjs.com/packages/zenflow-lint-js)
 [![Dependencies Status](https://david-dm.org/zenflow/zenflow-lint-js.svg)](https://david-dm.org/zenflow/zenflow-lint-js)
 [![Greenkeeper badge](https://badges.greenkeeper.io/zenflow/zenflow-lint-js.svg)](https://greenkeeper.io/)
-![semantic-release badge](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
+[![semantic-release badge](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/zenflow/zenflow-lint-js/blob/master/CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A zero-config opinionated and awesome js linter
