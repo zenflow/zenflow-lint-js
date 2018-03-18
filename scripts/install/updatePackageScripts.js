@@ -10,6 +10,7 @@ module.exports = async () => {
   const userPkgText = await readFile(userPkgFile, 'utf8')
   const origUserPkg = JSON.parse(userPkgText)
   const userPkg = JSON.parse(userPkgText)
+  userPkg.scripts = userPkg.scripts || {}
   // extract and isolate unit test script from "test" to "test-only" if it makes sense
   if (userPkg.scripts.test && !userPkg.scripts['test-only']) {
     const testScriptParts = userPkg.scripts.test.split(' && ')
