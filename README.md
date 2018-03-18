@@ -17,13 +17,16 @@ A zero-config opinionated and awesome js linter
   - [more](https://github.com/zenflow/eslint-config-zenflow#rules)
 - cli interface of standard via [standard-engine](https://github.com/standard/standard-engine)
 - ignores based off your `.gitignore`
-- `npx zenflow-lint-js install` for (usually fully-automatic) integration
-  - installs itself as a dev dependency
-  - adds standard `lint` and `fix` package scripts
-  - integrates with `test` package script
-  - takes care of your `.editorconfig`
-  - fixes fixable lint errors
-  - reports lint errors that need attention
+- integrate with `npm install zenflow-lint-js --save-dev && npx zenflow-lint-js setup && npm run fix`
+  - `npm install zenflow-lint-js --save-dev`:
+    - installs package as a dev dependency
+  - `npx zenflow-lint-js setup`:
+    - adds standard `lint` and `fix` package scripts
+    - integrates with `test` package script
+    - takes care of your `.editorconfig`
+  - `npm run fix`:
+    - fixes fixable lint errors
+    - reports lint errors that need attention
 
 # Changes
 
