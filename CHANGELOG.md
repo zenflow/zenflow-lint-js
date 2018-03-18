@@ -1,3 +1,16 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/zenflow/zenflow-lint-js/compare/v1.0.1...v2.0.0) (2018-03-18)
+
+
+### Bug Fixes
+
+* **install:** replace `zenflow-lint-js install` with `zenflow-lint-js setup` script ([b9479ee](https://github.com/zenflow/zenflow-lint-js/commit/b9479ee))
+
+
+### BREAKING CHANGES
+
+* **install:** `zenflow-lint-js install` has been replaced with `zenflow-lint-js setup`
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/zenflow/zenflow-lint-js/compare/v1.0.0...v1.0.1) (2018-03-18)
 
