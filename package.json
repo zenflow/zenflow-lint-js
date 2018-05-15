@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "prettier": "^1.11.1",
-    "standard-engine": "^8.0.1"
+    "standard-engine": "^9.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^2.0.1",
