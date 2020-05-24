@@ -57,6 +57,6 @@
   "devDependencies": {
     "@semantic-release/changelog": "^2.0.1",
     "@semantic-release/git": "^4.0.1",
-    "semantic-release": "^15.0.3"
+    "semantic-release": "^17.0.8"
   }
 }
