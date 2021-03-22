@@ -1,5 +1,7 @@
 # zenflow-lint-js
 
+# Deprecated
+
 [![Build Status](https://travis-ci.org/zenflow/zenflow-lint-js.svg?branch=master)](https://travis-ci.org/zenflow/zenflow-lint-js)
 [![npm version](https://badge.fury.io/js/zenflow-lint-js.svg)](https://www.npmjs.com/packages/zenflow-lint-js)
 [![Dependencies Status](https://david-dm.org/zenflow/zenflow-lint-js.svg)](https://david-dm.org/zenflow/zenflow-lint-js)
